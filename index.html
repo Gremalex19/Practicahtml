@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <style>
+        html { scroll-behavior: smooth; }
+        section { padding-top: 60px; padding-bottom: 60px; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item"><a class="nav-link btn btn-outline-secondary border-0 ms-2" href="#seccion1">Tamales</a></li>
+        <li class="nav-item"><a class="nav-link btn btn-outline-secondary border-0 ms-2" href="#seccion2">Enchiadas</a></li>
+        <li class="nav-item"><a class="nav-link btn btn-outline-secondary border-0 ms-2" href="#seccion3">Pizza</a></li>
+        <li class="nav-item"><a class="nav-link btn btn-outline-secondary border-0 ms-2" href="#seccion4">Hamburguesas</a></li>
+        <li class="nav-item"><a class="nav-link btn btn-outline-secondary border-0 ms-2" href="#seccion5">Pozole</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="200">
+      <img src="Foto.jpeg" class="d-block w-60" alt="Foto">
+    </div>
+    <div class="carousel-item" data-bs-interval="200">
+      <img src="descarga2.jpeg" class="d-block w-60" alt="Foto">
+    </div>
+    <div class="carousel-item">
+      <img src="descarga3.jpeg" class="d-block w-60" alt="Foto">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container mt-4">
+    <p>Esta es mi practica de el Lunes  </p>
+
+    <section id="seccion1" class="border-bottom">
+        <h2>Tamales</h2>
+        <p>Masa de maíz (rellena de carne, vegetales o dulce) que se envuelve en hojas de maíz o plátano y se cuece al vapor.</p>
+    </section>
+
+    <section id="seccion2" class="border-bottom">
+        <h2>Enchiladas</h2>
+        <p>Tortillas de maíz enrolladas, rellenas de pollo, carne o queso, que se bañan en salsa (verde, roja o mole) y se adornan con crema, queso y cebolla.</p>
+    </section>
+
+    <section id="seccion3" class="border-bottom">
+        <h2>Pizza</h2>
+        <p>Platillo italiano que consiste en una base circular de masa horneada, cubierta principalmente con salsa de tomate, queso derretido y otros ingredientes al gusto.</p>
+    </section>
+
+    <section id="seccion4" class="border-bottom">
+        <h2>Hamburguesas</h2>
+        <p>Sándwich que lleva una carne molida (usualmente de res) cocinada a la plancha o parrilla, servida entre dos panes redondos con lechuga, tomate, queso y aderezos.</p>
+    </section>
+
+    <section id="seccion5">
+        <h2>Pozole</h2>
+        <p>Caldo tradicional mexicano preparado con granos grandes de maíz (cacahuazintle) y carne (cerdo o pollo), que se acompaña al servir con lechuga, rábanos, orégano, cebolla y limón.</p>
+    </section>
+</div>
+
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <div class="container">
+    <p class="mb-0">footer </p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
